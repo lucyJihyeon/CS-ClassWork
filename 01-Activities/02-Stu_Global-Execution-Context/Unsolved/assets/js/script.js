@@ -6,7 +6,7 @@ const carNoise = 'Honk';
 const goFast = speed => {
   // 4) When is speed assigned a value? Where is this value stored?
   // spped is assinged a value when a user confirms the prompt (Do you want to go fast) 
-  // the value (80) is stored in the local execution context of the goFast function call
+  // the value (80) is stored in the function execution context of the goFast function call
   
   // 5) Where is makeNoise stored?
   //makeNoise is stored in the function executioin context of function goFast.
